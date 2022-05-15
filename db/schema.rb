@@ -15,6 +15,9 @@ ActiveRecord::Schema[7.0].define(version: 2022_05_15_215255) do
   enable_extension "plpgsql"
 
   create_table "entries", force: :cascade do |t|
+    t.integer "user_id"
+    t.string "mood"
+    t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
