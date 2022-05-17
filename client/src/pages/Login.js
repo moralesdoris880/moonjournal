@@ -2,16 +2,13 @@
 function Login(){
     return (
         <div id="login">
-            <img src={require('../media/phone.png')} id="phone"></img>
             <div className="box">
                 <h1 className='titles'>Log In</h1>
-                <p>Don't have an account? <a href="/signup">Sign up</a> for free.</p>
-                <form>
-                    <label>Username: </label>
-                    <input type="text" id="fname" name="fname" value="username"/>
-                    <label>Password:</label>
-                    <input type="text" id="lname" name="lname" value="password"/>
-                    <input type="submit" value="Log In" />
+                <p className='logintext'>Don't have an account? <a href="/signup">Sign up</a> for free.</p>
+                <form className='forms'>
+                    <input type="text" className='inputs' placeholder="Username"/>
+                    <input type="text" className='inputs' placeholder="Password"/>
+                    <input type="submit" className="inputsubmitbtn" value="Log In" />
                 </form>
             </div>
         </div>

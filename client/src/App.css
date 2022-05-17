@@ -48,29 +48,76 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+.root {
+  width: 100vw;
+  height: 100vh;
+}
 #login{
   display: flex;
   flex-direction: row;
   position: relative;
   top: 200px;
+  align-items: center;
+  justify-content: center;
 }
 #loginlogo{
   position: fixed;
   top: -200px;
   left: -20px;
 }
-
 .box{
   background-color: white;
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34);
-  width: 500px;
+  width: 450px;
+  border-radius: 8px;
+  padding-bottom: 20px;
 }
-
 .titles{
   font-family: 'Space Grotesk', sans-serif;
   font-size: 64px;
   text-align: center;
   font-weight: 550;
   margin: 20px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+.logintext{
+  text-align: center;
+}
+.forms{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+.inputs{
+  width: 364px;
+  color: gray;
+  margin-bottom: 10px;
+  height: 52px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+}
+.inputsubmitbtn{
+  background-color: black;
+  color: white;
+  width: 364px;
+  height: 48px;
+  border-radius: 6px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.inputsubmitbtn:hover{
+  background-color: #36454F;
+}
+#signup{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 200px;
+  align-items: center;
+  justify-content: center;
 }
