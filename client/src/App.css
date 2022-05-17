@@ -121,3 +121,26 @@ p{
   align-items: center;
   justify-content: center;
 }
+#home{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 150px;
+  align-items: center;
+  justify-content: center;
+}
+#content{
+  background-color: white;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34);
+  width: 800px;
+  border-radius: 8px;
+  padding: 20px;
+}
+#contentinfo{
+  display: flex;
+}
+#break{
+  background-color: black;
+  height: 1px;
+  margin: 5px;
+}
